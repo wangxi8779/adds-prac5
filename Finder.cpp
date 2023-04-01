@@ -15,13 +15,13 @@ vector<int> Finder::findSubstrings(string s1, string s2) {
   return result;
 }
 
-int main() {
-  Finder f1 = Finder();
-  vector<int> result = f1.findSubstrings("331212367", "12345679");
-  for (size_t i = 0; i < result.size(); i++) {
-     cout << result[i] << endl;
-  }
-}
+// int main() {
+//   Finder f1 = Finder();
+//   vector<int> result = f1.findSubstrings("331212367", "12345679");
+//   for (size_t i = 0; i < result.size(); i++) {
+//      cout << result[i] << endl;
+//   }
+// }
 
 // s1.find(s2, index) can find substrings starting from index
 // If prefix was not found (-1 as an output), the larger prefix will not be
